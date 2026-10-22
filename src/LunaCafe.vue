@@ -88,7 +88,7 @@ const menuItems = computed(() => [
 
   // 🥪 سندويشات
   { id: 21, category: 'sandwich', name: isArabic.value ? 'سندويش تونة' : 'Sandwich Thon', description: isArabic.value ? 'تونة، طماطم، زيتون، خبز طازج' : 'Thon, tomates, olives, pain frais', price: 6.5, currency: isArabic.value ? 'د.ت' : 'DT', image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400', badge: null, dietary: [] },
-  { id: 22, category: 'sandwich', name: isArabic.value ? 'سندويش دجاج' : 'Sandwich Poulet', description: isArabic.value ? 'دجاج مشوي، خس، مايونيز' : 'Poulet grillé, salade, mayonnaise', price: 7.5, currency: isArabic.value ? 'د.ت' : 'DT', image: 'https://images.unsplash.com/photo-1553909489-cd47e0ef937f?w=400', badge: null, dietary: [] },
+  { id: 22, category: 'sandwich', name: isArabic.value ? 'سندويش دجاج' : 'Sandwich Poulet', description: isArabic.value ? 'دجاج مشوي، خس، مايونيز' : 'Poulet grillé, salade, mayonnaise', price: 7.5, currency: isArabic.value ? 'د.ت' : 'DT', image: 'https://images.unsplash.com/photo-1521390188846-e2a3a97453a0?w=400', badge: null, dietary: [] },
   { id: 23, category: 'sandwich', name: isArabic.value ? 'سندويش حلوم' : 'Sandwich Halloumi', description: isArabic.value ? 'جبن حلوم مشوي، خيار، نعناع' : 'Halloumi grillé, concombre, menthe', price: 8.0, currency: isArabic.value ? 'د.ت' : 'DT', image: 'https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=400', badge: 'new', dietary: ['V'] },
 ])
 
